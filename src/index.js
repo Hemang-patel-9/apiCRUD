@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Crud from './Crud';
+import State from './State';
+import EffectComponent from './EffectComponent';
+import CrudOperation from './CrudOperation';
+import APICrud from './APICrud';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <APICrud />
   </React.StrictMode>
 );
 
